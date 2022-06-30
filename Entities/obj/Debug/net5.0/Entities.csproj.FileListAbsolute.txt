@@ -1,0 +1,30 @@
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\Entities.deps.json
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\Entities.dll
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\ref\Entities.dll
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\Entities.pdb
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\Common.dll
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\bin\Debug\net5.0\Common.pdb
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.dll
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\ismai\Downloads\Telegram Desktop\Dev.Template.AspNetCore\Entities\obj\Debug\net5.0\Entities.pdb
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\Entities.deps.json
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\Entities.dll
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\ref\Entities.dll
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\Entities.pdb
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\Common.dll
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\bin\Debug\net5.0\Common.pdb
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.dll
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\111\Downloads\Dev_Template_AspNetCore\Entities\obj\Debug\net5.0\Entities.pdb

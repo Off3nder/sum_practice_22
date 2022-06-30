@@ -1,0 +1,26 @@
+﻿@model BooksFilterModel
+
+<form asp-action="Index" asp-antiforgery="true" method="post">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label asp-for="Name"></label>
+				<input type="text" asp-for="Name" class="form-control" />
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label asp-for="TypeBook"></label>
+				<input type="text" asp-for="TypeBook" class="form-control" />
+				<span asp-validation-for="TypeBook" class="text-danger"></span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<input type="submit" class="btn btn-outline-primary" value="Применить">
+			<a asp-action="Index" class="btn btn-outline-secondary">Сбросить</a>
+		</div>
+	</div>
+</form>

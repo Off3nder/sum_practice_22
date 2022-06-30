@@ -1,0 +1,63 @@
+﻿@using UI.Extensions.Mvc
+@model BookModel
+
+@{
+	var exists = Model != null && Model.Id != 0;
+	ViewBag.Title = (exists ? "Редактирование" : "Создание") + " книги";
+	var types = typeof(TypesBook).GetEnumValues().Cast<TypesBook>();
+}
+
+<form asp-controller="@Url.GetController()" asp-action="Update" asp-antiforgery="true" method="post">
+	<div class="row">
+		<input type="hidden" asp-for="Id" />
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="Name"></label>
+				<input type="text" asp-for="Name" class="form-control" />
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="AuthorFirstName"></label>
+				<input type="text" asp-for="AuthorFirstName" class="form-control" />
+				<span asp-validation-for="AuthorFirstName" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="AuthorSecondName"></label>
+				<input type="text" asp-for="AuthorSecondName" class="form-control" />
+				<span asp-validation-for="AuthorSecondName" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="AuthorThirdName"></label>
+				<input type="text" asp-for="AuthorThirdName" class="form-control" />
+				<span asp-validation-for="AuthorThirdName" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="DescriptionBook"></label>
+				<input type="text" asp-for="DescriptionBook" class="form-control" />
+				<span asp-validation-for="DescriptionBook" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="form-group">
+				<label asp-for="TypeBook"></label>
+				<select asp-for="TypeBook" asp-items="@(Html.GetEnumSelectList(types))" class="form-control"></select>
+				<span asp-validation-for="TypeBook" class="text-danger"></span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<button class="btn btn-outline-primary" type="submit">@(exists ? "Сохранить" : "Добавить")</button>
+			<a asp-controller="@Url.GetController()" asp-action="Index" class="btn btn-outline-secondary">Отмена</a>
+			
+		</div>
+	</div>
+</form>
